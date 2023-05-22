@@ -1,0 +1,7 @@
+n=input()
+h=int(n[0:2])
+m=int(n[3::])
+hd=(h*60 + m)*(0.5)
+md=(m*6)
+a=abs(hd-md)
+print(min(a,360-a))
